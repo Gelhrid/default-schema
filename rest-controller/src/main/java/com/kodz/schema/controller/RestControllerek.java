@@ -17,7 +17,6 @@ public class RestControllerek {
     Beanek serwisik;
 
     @RequestMapping("/hello/{people}")
-
     public Message getMessage(@PathVariable String people)
     {
         return  serwisik.retiveMessage(people);

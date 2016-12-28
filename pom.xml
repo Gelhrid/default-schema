@@ -9,6 +9,7 @@
     <module>default-schema-war</module>
     <module>default-schema-domain</module>
     <module>rest-controller</module>
+    <module>configuration</module>
   </modules>
   <packaging>pom</packaging>
 

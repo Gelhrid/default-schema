@@ -1,4 +1,4 @@
-package com.kodz.springmvc.configuration;
+package com.kodz.schema;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

@@ -47,8 +47,8 @@
         </dependency>
         <dependency>
             <groupId>com.kodz.schema</groupId>
-            <artifactId>zwara-zawartosc</artifactId>
-            <version>${project.version}</version>
+            <artifactId>configuration</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
     <build>
@@ -60,13 +60,13 @@
                     <version>2.4</version>
                     <configuration>
                         <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                        <warName>default-schema-war</warName>
+                        <warName>default-schema-dziala2</warName>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
                     </configuration>
 
                 </plugin>
             </plugins>
         </pluginManagement>
-        <finalName>default-schema-war</finalName>
+        <finalName>default-schema</finalName>
     </build>
 </project>
